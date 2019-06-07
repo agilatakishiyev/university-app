@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="dd9111954e8e4ef98221866368803e2a" Name="Diagram1" ZoomLevel="121">
+        <EntityTypeShape EntityType="UniversityModel.Evaluation" Width="1.5" PointX="5" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="UniversityModel.Grade" Width="1.5" PointX="5.125" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="UniversityModel.Group" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="UniversityModel.Question" Width="1.5" PointX="7.125" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="UniversityModel.Student" Width="1.5" PointX="7.625" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="UniversityModel.Subject" Width="1.5" PointX="0.75" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="UniversityModel.TeacherOfSubjectToGroup" Width="1.5" PointX="3.125" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="UniversityModel.Teacher" Width="1.5" PointX="0.75" PointY="7.375" IsExpanded="true" />
+        <AssociationConnector Association="UniversityModel.FK__Evaluatio__Stude__44FF419A" ManuallyRouted="false" />
+        <AssociationConnector Association="UniversityModel.FK__Evaluatio__Subje__45F365D3" ManuallyRouted="false" />
+        <AssociationConnector Association="UniversityModel.FK__Grades__StudentI__46E78A0C" ManuallyRouted="false" />
+        <AssociationConnector Association="UniversityModel.FK__Grades__SubjectI__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="UniversityModel.FK__Students__GroupI__49C3F6B7" ManuallyRouted="false" />
+        <AssociationConnector Association="UniversityModel.FK__TeacherOf__Group__4CA06362" ManuallyRouted="false" />
+        <AssociationConnector Association="UniversityModel.FK__Questions__Subje__48CFD27E" ManuallyRouted="false" />
+        <AssociationConnector Association="UniversityModel.FK__TeacherOf__Subje__4BAC3F29" ManuallyRouted="false" />
+        <AssociationConnector Association="UniversityModel.FK__TeacherOf__Teach__4AB81AF0" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
